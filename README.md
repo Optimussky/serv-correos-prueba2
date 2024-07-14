@@ -8,8 +8,10 @@ Crear un proyecto en el que se generen 3 modelos:
 1.- Modelo: Login
 con sus campos: username, password
 Para hacer el login en con autenticacion simple en django
+
 2.- Modelo DataSystem:
 con sus campos: name, uuid, email, password
+
 3.- Modelo Notification:
 con sus campos uuid( que es foreignkey del modelo DataSystem), title, email
 Es necesario crear los siguiente en relación a los modelos anteriores:
